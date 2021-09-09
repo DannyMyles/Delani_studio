@@ -41,14 +41,16 @@ color: white;
 
 }
 /* about us stylesheet */
-.aboutus {
+.abt-sec {
   height: 40vh;
   padding-top: 20px;
-  
+
 }
-.aboutus > p {
+.abt-sec > p {
   font-family: Lato;
-  
+  font-weight: 700;
+  font-size: large;
+
 }
 /* services section */
 .service1 {

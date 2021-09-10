@@ -62,7 +62,8 @@ color: white;
   height: 60vh;
   color: white;
   font-weight: 400;
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 
 }
 .srv-sec  > h3 {

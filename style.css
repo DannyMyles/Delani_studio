@@ -81,7 +81,7 @@ color: white;
   height: 50vh;
 }
 /* //style what we do sec */
-.myrow:hover {
+.port-row:hover {
   padding: 1rem;
   font-family: 'Crimson Pro', serif;
   font-size: 20px;
@@ -92,7 +92,7 @@ color: white;
   padding-top: 9vh;
 }
 
-.myproject {
+.port-pro {
   position: absolute;
   padding: 5px;
   background-color: white;

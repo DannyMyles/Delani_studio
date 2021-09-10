@@ -13,8 +13,10 @@
   background-size: cover;
 }
 .delani-home  {
+  top: 0;
+  position: relative;
+  left: 0;
   height: auto;
-  
 }
 .starter{
   position: absolute;

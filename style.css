@@ -77,7 +77,8 @@ color: white;
 .wht-sec:hover {
   color:black;
   background:rgba(248, 247, 246, 0.979);
-  
+  padding-top: 5vh;
+  height: 50vh;
 }
 /* //style what we do sec */
 .myrow:hover {

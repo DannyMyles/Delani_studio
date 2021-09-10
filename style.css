@@ -160,7 +160,7 @@ background-color: transparent;
   height: 10vh;
 }
 /* keyframes */
-#anim {
+#animatin {
   animation: pulse 5s infinite;
   padding-top: 2vh;
   animation-duration: 2s;

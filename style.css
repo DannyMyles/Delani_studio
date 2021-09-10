@@ -117,11 +117,11 @@ color: white;
 #textarea {
 background-color: transparent;
 }
-.contactme {
+.cont-sec {
   height: 90vh;
   width: 100%;
 }
-.myform {
+.cont-form {
   position: relative;
   left: 0;
   top: 0;
@@ -133,14 +133,14 @@ background-color: transparent;
 .port1 {
   padding-bottom: 5vh;
 }
-.mycontact {
+.find-me {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-transform: uppercase;
 }
-.myform > h3 {
+.cont-form > h3 {
   text-transform: uppercase;
   padding-top: 2vh;
 }
@@ -149,10 +149,10 @@ background-color: transparent;
   margin-left: 50%;
 }
 /* contact us section */
-.mycontact {
+.find-me {
   padding-top: 10vh;
 }
-.mycontact > h3 {
+.find-me > h3 {
   color: white;
 }
 .myfoot:hover {

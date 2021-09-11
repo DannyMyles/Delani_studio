@@ -16,21 +16,21 @@ $(document).ready(function () {
         $(".imgtoggle03").toggle();
     });
 });
-// //hover effect on the portfolio section
-// $(document).ready(function () {
-//     $(".myportfolio").hover(
-//         function () {
-//             $(this)
-//                 .find(".myproject")
-//                 .show();
-//         },
-//         function () {
-//             $(this)
-//                 .find(".myproject")
-//                 .hide();
-//         }
-//     );
-// });
+//hover effect on the portfolio section
+$(document).ready(function () {
+    $(".myportfolio").hover(
+        function () {
+            $(this)
+                .find(".myproject")
+                .show();
+        },
+        function () {
+            $(this)
+                .find(".myproject")
+                .hide();
+        }
+    );
+});
 
 // //poup on submission
 // $(document).ready(function () {

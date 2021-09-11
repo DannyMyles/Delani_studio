@@ -159,6 +159,8 @@ background-color: transparent;
 }
 .logo{
   font-size: medium;
+  font-weight: 600;
+  font-style: oblique;
 }
 .footer-sec:hover {
   padding-top: 3vh;

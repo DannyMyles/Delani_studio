@@ -7,7 +7,7 @@ Delani Studio is a site built to practice concepts learnt including JQuery, boot
 >Danny Myles
 
 ## Design.
-<img src="./images/d">
+<img src="./images/dStudio.jpg">
 
 ## Setup.
 To get a local copy of the site:

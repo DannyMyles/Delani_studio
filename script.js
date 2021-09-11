@@ -7,21 +7,20 @@ $(document).ready(function () {
         $("#whatText").toggle();
         $(".imgtoggle01").toggle();
     });
-//     $(".imgtoggle02, .imgtoggle2").click(function () {
-//         $("#whatText2").toggle();
-//         $(".imgtoggle02").toggle();
-//     });
-//     $(".imgtoggle03, .imgtoggle3").click(function () {
-//         $("#whatText3").toggle();
-//         $(".imgtoggle03").toggle();
-//     });
-// });
+    $(".imgtoggle02, .imgtoggle2").click(function () {
+        $("#whatText2").toggle();
+        $(".imgtoggle02").toggle();
+    });
+    $(".imgtoggle03, .imgtoggle3").click(function () {
+        $("#whatText3").toggle();
+        $(".imgtoggle03").toggle();
+    });
+});
 // //hover effect on the portfolio section
 // $(document).ready(function () {
 //     $(".myportfolio").hover(
 //         function () {
 //             $(this)
-//                 .f)
 //                 .find(".myproject")
 //                 .show();
 //         },

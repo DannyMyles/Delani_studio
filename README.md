@@ -1,7 +1,7 @@
 # Delani_studio
 [Check it out](https://github.com/DannyMyles/Delani_studio)
  ## Description.
-To implement bootstrap,jQuery and Jvascript, we were given Delani_studion to practise with at Moringa school.Learning these concepts is one of the most interesting things.
+To implement bootstrap,jQuery and Jvascript, we were given Delani_studion to practise with at Moringa school.Learning these concepts is one of the most interesting things as a developer.
 ## Author
 >Danny Myles
 
@@ -15,7 +15,8 @@ To get a local copy of the site:
 
 `Extract` the cloned file.
 
-`cd` to Delani_tudio directory.
+`cd` to Delani_studio directory.
+`code`
 
 *Launch* `index.html` file.
 

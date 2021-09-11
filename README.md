@@ -1,8 +1,7 @@
 # Delani_studio
 [Check it out](https://github.com/DannyMyles/Delani_studio)
  ## Description.
-Delani Studio is a site built to practice concepts learnt including JQuery, bootstrap, javascript and working with APIS's.
-
+To implement bootstrap,jQuery and Jvascript, we were given Delani_studion to practise with at Moringa school.Learning these concepts is one of the most interesting things.
 ## Author
 >Danny Myles
 

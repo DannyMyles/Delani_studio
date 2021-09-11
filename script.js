@@ -1,12 +1,12 @@
-// // jquery for image toggle
-// $(document).ready(function () {
-//     $("#whatText").hide();
-//     $("#whatText2").hide();
-//     $("#whatText3").hide();
-//     $(".imgtoggle01, .imgtoggle1").click(function () {
-//         $("#whatText").toggle();
-//         $(".imgtoggle01").toggle();
-//     });
+// jquery for image toggle
+$(document).ready(function () {
+    $("#whatText").hide();
+    $("#whatText2").hide();
+    $("#whatText3").hide();
+    $(".imgtoggle01, .imgtoggle1").click(function () {
+        $("#whatText").toggle();
+        $(".imgtoggle01").toggle();
+    });
 //     $(".imgtoggle02, .imgtoggle2").click(function () {
 //         $("#whatText2").toggle();
 //         $(".imgtoggle02").toggle();
@@ -21,6 +21,7 @@
 //     $(".myportfolio").hover(
 //         function () {
 //             $(this)
+//                 .f)
 //                 .find(".myproject")
 //                 .show();
 //         },

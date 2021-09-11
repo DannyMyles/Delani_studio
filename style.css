@@ -5,6 +5,7 @@
   box-sizing: border-box;
 
 }
+
 /* top image with delani name and background image */
 .stair-foot {
   height: 100vh;
@@ -39,6 +40,7 @@ h1,p {
 color: white;
 
 }
+
 /* about us stylesheet */
 .abt-sec {
   height: 40vh;
@@ -51,6 +53,7 @@ color: white;
   font-size: large;
 
 }
+
 /* services section */
 .srv-sec {
   background: url("../images/s_image.jpg");
@@ -74,6 +77,7 @@ color: white;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 /* What we do */
 .wht-sec:hover {
   color:black;
@@ -81,6 +85,7 @@ color: white;
   padding-top: 5vh;
   height: 50vh;
 }
+
 /* //style what we do sec */
 .port-row:hover {
   padding: 1rem;
@@ -109,6 +114,7 @@ color: white;
 .port-pro:hover {
   opacity: 1;
 }
+
 /* start form styling */
 .myhead {
   margin-top: 4vh;
@@ -130,6 +136,7 @@ background-color: transparent;
 .submitme {
   margin-bottom: 17vh;
 }
+
 /* portfolio section */
 .port1 {
   padding-bottom: 5vh;
@@ -149,6 +156,7 @@ background-color: transparent;
   margin-top: 1rem;
   margin-left: 50%;
 }
+
 /* contact us section */
 .find-me {
   padding-top: 10vh;
@@ -165,6 +173,7 @@ background-color: transparent;
   padding-top: 3vh;
   height: 10vh;
 }
+
 /* keyframes */
 #anim{
   animation: pulse 5s infinite;

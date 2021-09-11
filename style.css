@@ -89,10 +89,10 @@ color: white;
 
 /* //style what we do sec */
 .port-row:hover {
-  padding: 1rem;
-  /* font-family: 'Crimson Pro', serif;
+  font-family: 'Crimson Pro', serif;
   font-size: 20px;
-  color: rgb(26, 163, 140); */
+  color: rgb(26, 163, 140);
+  padding: 1rem;
 }
 
 .port1 {

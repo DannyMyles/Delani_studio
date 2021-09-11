@@ -1,4 +1,4 @@
-<!-- # Delani_studio
+# Delani_studio
 [Check it out](https://github.com/DannyMyles/Delani_studio)
  ## Description.
 Delani Studio is a site built to practice concepts learnt including JQuery, bootstrap, javascript and working with APIS's.
@@ -6,8 +6,8 @@ Delani Studio is a site built to practice concepts learnt including JQuery, boot
 ## Author
 >Danny Myles
 
-## Screenshot.
-<img src="https://github.com/DannyMyles/Delani_studio/master/images/Screenshot" width="1000">
+## Design.
+<img src="./images/design_icon.png">
 
 ## Setup.
 To get a local copy of the site:
@@ -34,13 +34,14 @@ To get a local copy of the site:
 | Message    | The message from the user.   |
 
 ## Bugs.
-I was unable to implement the MailChimp.
+I was unable to implement the MailChimp part.
 
-Screenshot does not work
+## **Contact information.**
++  ["https://github.com/DannyMyles" ]
 
-## License
++  [ Email:"https://mail.google.com/mail/u/0/#inbox" ]
 
->MIT LICENSE &copy; 2021 Danny Myles
+## **License and Copyright information.**
 
-## Collaborate
-To contribute to Delani studio, reach me on [Email](dannymyles1999@gmail.com). -->
+Copyright(c) 2021 Danny Myles.
+ Licensed under the MIT license.

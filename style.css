@@ -100,14 +100,15 @@ color: white;
 }
 
 .port-pro {
-  /* position: absolute;
-  padding: 5px;
-  background-color: white;
-  text-align: center;
-  top: 58%; */
+
   left: 48%;
   transform: translate(-50%, -80%);
   display: none;
+  position: absolute;
+  padding: 5px;
+  background-color: white;
+  text-align: center;
+  top: 58%;
 }
 .img1:hover {
   opacity: 0.3;

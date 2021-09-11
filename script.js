@@ -32,10 +32,10 @@ $(document).ready(function () {
     );
 });
 
-// //poup on submission
-// $(document).ready(function () {
-//     document.getElementById("form").addEventListener("submit", popUp);
-//     function popUp() {
-//         alert("Your feedback has been received.");
-//     }
-// });
+//poup on submission
+$(document).ready(function () {
+    document.getElementById("form").addEventListener("submit", popUp);
+    function popUp() {
+        alert("Your feedback has been received.");
+    }
+});

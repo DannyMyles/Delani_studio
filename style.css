@@ -1,5 +1,4 @@
-/* Google fonts import */
-/* @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Roboto:wght@100&display=swap'); */
+ @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Roboto:wght@100&display=swap'); */
 * {
   margin: 0;
   padding: 0;
@@ -157,6 +156,9 @@ background-color: transparent;
 }
 .find-me > h3 {
   color: white;
+}
+.logo{
+  font-size: medium;
 }
 .footer-sec:hover {
   padding-top: 3vh;

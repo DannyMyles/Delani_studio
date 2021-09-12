@@ -57,7 +57,7 @@ color: white;
 
 /* services section */
 .srv-sec {
-  background: url("../images/s_image.jpg");
+  background: url("./images/s_image.jpg");
   width: 100%;
   position: relative;
   left: 0;

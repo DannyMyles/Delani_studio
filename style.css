@@ -1,201 +1,42 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-
+section{
+  min-height: 100vh;
 }
 
-/* top image with delani name and background image */
-.stair-foot {
-  height: 100vh;
-  width: 100%;
+#intro-section{
+  background:url(./assets/backgrounds/h_img.jpg) center center;
+  background-size: cover;
+  color: white;
+}
+
+#intro-section input{
+  background: none !important;
+  color:white;
+}
+
+#services{
+  background: url(./assets/backgrounds/s_image.jpg) center center;
   background-size: cover;
 }
-.delani-home  {
-  top: 0;
-  position: relative;
-  left: 0;
-  height: auto;
-}
-.starter{
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-transform: uppercase;
-  font-weight: 900;
-  color: white;
-}
-.wel-head {
-  font-size: 2.7rem;
+
+#contactus-section{
+  background: url(./assets/backgrounds/c_image.jpg) center center;
+  background-size: cover;
 }
 
-.starter,
-h1,p {
-  font-family: 'Courgette', cursive;
-
-}
-.starter {
-color: white;
-
-}
-
-/* about us stylesheet */
-.abt-sec {
-  height: 40vh;
-  padding-top: 20px;
-
-}
-.abt-sec > p {
-  font-family: Lato;
-  font-weight: 700;
-  font-size: large;
-
-}
-
-/* services section */
-.srv-sec {
-  background: url("./images/s_image.jpg");
+#portfolio-section img{
   width: 100%;
-  position: relative;
-  left: 0;
-  top: 0;
-  height: 60vh;
-  color: white;
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
-
-}
-.srv-sec  > h3 {
-  font-size: 8vw;
-  font-weight: 800;
-}
-.sc-src {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
-/* What we do */
-.wht-sec:hover {
-  color:black;
-  background:rgba(248, 247, 246, 0.979);
-  padding-top: 5vh;
-  height: 50vh;
-}
-
-/* //style what we do sec */
-.port-row:hover {
-  font-family: 'Crimson Pro', serif;
-  font-size: 20px;
-  color: rgb(26, 163, 140);
-  padding: 1rem;
-}
-
-.port1 {
-  padding-top: 9vh;
-}
-
-.port-pro {
-
-  left: 48%;
-  transform: translate(-50%, -80%);
+#what-we-do-section .description{
   display: none;
-  position: absolute;
-  padding: 5px;
-  background-color: white;
-  text-align: center;
-  top: 58%;
-}
-.img1:hover {
-  opacity: 0.3;
-}
-.port-pro:hover {
-  opacity: 1;
+  opacity: 0;
 }
 
-/* start form styling */
-.myhead {
-  margin-top: 4vh;
-}
-#name,
-#email,
-#textarea {
-background-color: transparent;
-}
-.cont-sec {
-  height: 90vh;
-  width: 100%;
-}
-.cont-form {
-  position: relative;
-  left: 0;
-  top: 0;
-}
-.submitme {
-  margin-bottom: 17vh;
+#we-we-do-icons .row{
+  height: 400px;
 }
 
-/* portfolio section */
-.port1 {
-  padding-bottom: 5vh;
+.what-we-do-icon{
+  cursor: pointer;
+  padding: 10px;
 }
-.find-me {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-transform: uppercase;
-}
-.cont-form > h3 {
-  text-transform: uppercase;
-  padding-top: 2vh;
-}
-.submitme {
-  margin-top: 1rem;
-  margin-left: 50%;
-}
-
-/* contact us section */
-.find-me {
-  padding-top: 10vh;
-}
-.find-me > h3 {
-  color: white;
-}
-.logo{
-  font-size: medium;
-  font-weight: 600;
-  font-style: oblique;
-}
-.footer-sec:hover {
-  padding-top: 3vh;
-  height: 10vh;
-}
-
-/* keyframes */
-#anim{
-  animation: pulse 5s infinite;
-  padding-top: 2vh;
-  animation-duration: 2s;
-  animation-name: mymouse;
-}
-@keyframes mymouse {
-  0%,
-  20%,
-  50%,
-  80%,
-  100% {
-    transform: translateY(0);
-  }
-  40% {
-    transform: translateY(-30px);
-  }
-  60% {
-    transform: translateY(-15px);
-  }
-}
-
-

@@ -1,42 +1,65 @@
-// jquery for image toggle
-$(document).ready(function () {
-    $("#whatText").hide();
-    $("#whatText2").hide();
-    $("#whatText3").hide();
-    $(".imgtoggle01, .imgtoggle1").click(function () {
-        $("#whatText").toggle();
-        $(".imgtoggle01").toggle();
+function bounce(){
+    $('#mouse-click-icon')
+    .animate({
+        marginTop:"-30px",
+        position:"absolute"
+    }, 500)
+    .animate({
+        marginTop:"0",
+        position:"absolute"
+    }, {
+        duration:500,
+        complete:bounce
     });
-    $(".imgtoggle02, .imgtoggle2").click(function () {
-        $("#whatText2").toggle();
-        $(".imgtoggle02").toggle();
-    });
-    $(".imgtoggle03, .imgtoggle3").click(function () {
-        $("#whatText3").toggle();
-        $(".imgtoggle03").toggle();
-    });
-});
-//hover effect on the portfolio section
-$(document).ready(function () {
-    $(".myportfolio").hover(
-        function () {
-            $(this)
-                .find(".myproject")
-                .show();
-        },
-        function () {
-            $(this)
-                .find(".myproject")
-                .hide();
-        }
-    );
-});
+}
 
-//poup on submission
-$(document).ready(function () {
-    document.getElementById("form").addEventListener("submit", popUp);
-    function popUp() {
-        alert("Your feedback has been received.");
-    }
+function scrollToAboutUs(){
+    const position = $("#aboutus-section").offset();
+    console.log(position);
+    $('html, body').animate({
+        scrollTop:position.top+'px'
+    }, 500);
+    // scrollTo(0, position.top);
+}
+
+function flip(evt){
+
+}
+
+function pulsate(element, element2) {
+    $(element).animate({ opacity: 0 }, 500, function() {
+        $(element).hide();
+        $(element2).show().animate({ opacity:1 }, 500);
+    });
+}
+
+$(document).ready(function(){
+    bounce();
+    $('#mouse-click-icon').click(scrollToAboutUs);
+    $('.what-we-do-icon').click(function(evt){
+        pulsate(this, $(this).prev());
+    });
+
+    $('.description').mouseout(function(){
+        pulsate(this, $(this).next());
+    });
+
+    $('#contactUsForm').submit(function(evt){
+        evt.preventDefault();
+
+        const form = evt.target;
+        console.log($(form).find('.alert'));
+        if(!form.checkValidity()){
+            $(form).find('.alert').addClass('alert-danger').html('Check Missing Fields').show();
+            return;
+        }
+
+        const formData = new FormData(form);
+        console.log(formData);
+        // $(form).find('.alert').romoveClass('alert-danger');
+        $(form).find('.alert').addClass('alert-success')
+        .html(form.name.value+' we have received your message. Thank you fro reaching out to us.')
+        .show()
+    });
 });
 

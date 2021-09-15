@@ -40,3 +40,7 @@ section{
   cursor: pointer;
   padding: 10px;
 }
+.myfoot:hover {
+  padding-top: 3vh;
+  height: 10vh;
+}

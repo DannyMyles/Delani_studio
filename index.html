@@ -2,285 +2,195 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-    <title>Delani||Studio</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DELANI||STUDIO</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 
 <body>
-    <main>
-        <!-- my home page for delani -->
-        <div class="delani-home text-center">
-            <img src="./images/h_img.jpg" alt="stair-foot" class="img-fluid stair-foot"/>
-            <div class="starter container-fluid">
-                <br/>
-                <br/>
-                <br/>
-                <img src="./images/logo.png" class="img-fluid logo" alt="logo"/>
-                <h1 class="wel-head ">Welcome <br/>
-                    <br/>to delani studio</h1>
-                <p>Amazing people are making amazing designs in a fun environment</p>
-                <p>
-                    <br/><br/><br /><br/>
-                    <a href="#anim"><img src="./images/mouse_click.png" id="anim" alt="mouse_click" /></a>
-                </p>
-            </div>
+
+    <section id="intro-section" class="d-flex flex-column justify-content-center">
+        <div class="align-self-center mt-auto">
+            <img src="./assets/logo/logo.png" height="64" alt="">
         </div>
-        <!-- about us for delani -->
-        <section>
-            <div class="abt-sec container-fluid">
-                <h3 class="text-center" id="anim">About Us</h3>
-                <div class="container">
-                    <p class="text-center">
-                        When you work with us, you are part of a team of commited
-                        collaborators. All apects of our software development process are
-                        intergrated, interractive and agile
-                    </p>
-                    <p class="text-center">
-                        Our approach unifies design, development and product management to
-                        create exceptional products.
-                    </p>
-                    <p class="text-center">
-                        We start each project by understanding your business goasl, the
-                        user's needs and the product requirements.
-                    </p>
-                    <p class="text-center">
-                        the we help translate them into effective and elegant solutions.
-                    </p>
-                </div>
-            </div>
-        </section>
-        <!-- Services section -->
-        <section>
-            <div class="container-fluid srv-sec ">
-                <div class="container sc-src">
-                    <h3 class="text-center">SERVICES</h3>
-                    <p class="text-center">
-                        Before we sign a contract or write a line of code our team will
-                        spend the necessary time needed to understand your product vision
-                    </p>
-                    <p class="text-center">
-                        The coutcome of this scoping session is proposal or high level
-                        statement of work.
-                    </p>
-                    <p class="text-center">
-                        Based on your requirements, we can provide a complete offering or
-                        just the pieces you need.
-                    </p>
-                </div>
-            </div>
-        </section>
+        <div class="align-self-center text-center">
+            <h3 class="h3">WELCOME <br />TODELANI STUDIO</h3>
+        </div>
+        <div class="align-self-center text-center">
+            AMAZING PEOPLE ARE MAKING AMAZING DESINGS IN FUN ENVIRONMENT
+        </div>
+        <div class="align-self-center mt-auto mb-5" style="height: 50px;">
+            <a href="javascript:void(0)" id="mouse-click-icon" class="d-block"><img src="./assets/mouse_click.png"
+                    alt=""></a>
+        </div>
+    </section>
+
+    <section id="aboutus-section" class="d-flex flex-column justify-content-center text-center">
+        <div id="aboutus" class="p-3 flex-fill d-flex flex-column justify-content-center">
+            <h3>About Us</h3>
+            When you work with us, you are part of a team of commited
+            collaborators. All apects of our software development process are
+            intergrated, interractive and agile
+        </p>
+        <p>
+            Our approach unifies design, development and product management to
+            create exceptional products.
+        </p>
+        <p>
+            We start each project by understanding your business goasl, the
+            user's needs and the product requirements.
+        </p>
+        <p>
+            the we help translate them into effective and elegant solutions.
+        </p>
+        </div>
+
+        <!-- service section -->
+        <div id="services" class="p-3 flex-fill d-flex flex-column justify-content-center text-white">
+            <h3>Services</h3>
+            Before we sign a contract or write a line of code our team will
+            spend the necessary time needed to understand your product vision
+        </p>
+        <p>
+            The coutcome of this scoping session is proposal or high level
+            statement of work.
+        </p>
+        <p>
+            Based on your requirements, we can provide a complete offering or
+            just the pieces you need.
+        </p>
+        </div>
+    </section>
 
     <!-- What we do section -->
-    <div class="container wht-sec">
-        <div class="mycontainer">
-            <h3 class="text-center us1">WHAT WE DO</h3>
-            <div class="row text-center row1">
-                <div class="col-md-4">
-                    <div>
-                        <div class="imgtoggle01">
-                            <img src="./images/design_icon.png" alt="icon-design" />
-                            <p>DESIGN</p>
-                        </div>
+    <section id="what-we-do-section" class="container">
+        <div id="we-we-do-icons" class="pt-5 pb-5">
+            <h3 class="text-center">WHAT WE DO</h3>
+            <div class="row gx-5">
+                <div class="col-md-4 p-3 text-center align-self-center">
+                    <div class="description">
+                        <p>
+                            Our design practice offers a full range of services
+                            including brand strategy, interaction and visual design and
+                            user experience testing. Throughout your project, our
+                            designers create and implement visual design and workflows,
+                            solicit user feedback and work with you to make sure what
+                            gets built is what is needed.
+                        </p>
                     </div>
-                    <div>
-                        <div id="whatText" class="imgtoggle1">
-                            <p class="imgtoggle1">DESIGN</p>
-                            <p class="text-center">
-                                Our design practice offers a full range of services
-                                including brand strategy, interaction and visual design and
-                                user experience testing. Throughout your project, our
-                                designers create and implement visual design and workflows,
-                                solicit user feedback and work with you to make sure what
-                                gets built is what is needed.
-                            </p>
-                        </div>
+                    <div class="what-we-do-icon">
+                        <img src="./assets/services_icons/design_icon.png" alt="">
+                        <p>Design</p>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div>
-                        <div class="imgtoggle02">
-                            <img src="./images/dev_icon.png" alt="dev-icon" />
-                            <p>DEVELOPMENT</p>
-                        </div>
+                <div class="col-md-4 p-3 text-center align-self-center">
+                    <div class="description">
+                        <p>
+                            All engineers are fluent in the latest enterprise, mobile
+                            and web development technologies. They collaborate with your
+                            team to write, and improve code on a daily basis, using
+                            proven practices such as test-driven development and pair
+                            programming.
+                        </p>
                     </div>
-                    <div>
-                        <div id="whatText2" class="imgtoggle2">
-                            <p class="imgtoggle2">DEVELOPMENT</p>
-                            <p class="text-center">
-                                All engineers are fluent in the latest enterprise, mobile
-                                and web development technologies. They collaborate with your
-                                team to write, and improve code on a daily basis, using
-                                proven practices such as test-driven development and pair
-                                programming.
-                            </p>
-                        </div>
+                    <div class="what-we-do-icon">
+                        <img src="./assets/services_icons/dev_icon.png" alt="">
+                        <div>Development</div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div>
-                        <div class="imgtoggle03">
-                            <img src="./images/product_icon.png" alt="icon-product" />
-                            <p>PRODUCT DEVELOPMENT</p>
-                        </div>
+                <div class="col-md-4 p-3 text-center align-self-center">
+                    <div class="description">
+                        <p>
+                            Planning and development is interative. Because we are
+                            constantly coding and testing, the products we build are
+                            always ready to go live. This iterative process allows for
+                            changes as business requirements evolve.
+                        </p>
                     </div>
-                    <div>
-                        <div id="whatText3" class="imgtoggle3">
-                            <p class="imgtoggle3">PRODUCT DEVELOPMENT</p>
-                            <p class="text-center">
-                                Planning and development is interative. Because we are
-                                constantly coding and testing, the products we build are
-                                always ready to go live. This iterative process allows for
-                                changes as business requirements evolve.
-                            </p>
-                        </div>
+                    <div class="what-we-do-icon">
+                        <img src="./assets/services_icons/product_icon.png" alt="">
+                        <div>Product Management</div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
-<!-- Portfolio section -->
-<section>
-    <div class="container-fluid port1">
-        <div class="container">
-            <h3 class="text-center">PORTFOLIO</h3>
-            <div class="row port-row">
-                <div class="col-md-3">
-                    <div class="myportfolio">
-                        <div class="img1">
-                            <img src="./images/work4.jpg" class="img-fluid" />
-                        </div>
-                        <div class="port-pro">
-                            project 1
-                        </div>
-                    </div>
+        <div id="portfolio-section">
+            <div class="row">
+                <div class="col-md-3 p-3">
+                    <img src="./assets/portfolio/work1.jpg" alt="">
                 </div>
-                <div class="col-md-3">
-                    <div class="myportfolio">
-                        <div class="img1">
-                            <img src="./images/work3.jpg"class="img-fluid" />
-                        </div>
-                        <div class="port-pro">
-                            project 2
-                        </div>
-                    </div>
+                <div class="col-md-3 p-3">
+                    <img src="./assets/portfolio/work2.jpg" alt="">
                 </div>
-                <div class="col-md-3">
-                    <div class="myportfolio">
-                        <div class="img1">
-                            <img src="./images/work2.jpg" class="img-fluid" />
-                        </div>
-                        <div class="port-pro">
-                            project 3
-                        </div>
-                    </div>
+                <div class="col-md-3 p-3">
+                    <img src="./assets/portfolio/work3.jpg" alt="">
                 </div>
-                <div class="col-md-3">
-                    <div class="myportfolio">
-                        <div class="img1">
-                            <img src="./images/work1.jpg"  class="img-fluid" />
-                        </div>
-                        <div class="port-pro">
-                            project 4
-                        </div>
-                    </div>
+                <div class="col-md-3 p-3">
+                    <img src="./assets/portfolio/work4.jpg" alt="">
                 </div>
             </div>
-            <div class="row myrow">
-                <div class="col-md-3">
-                    <div class="myportfolio">
-                        <div class="img1">
-                            <img src="./images/work5.jpg" class="img-fluid" />
-                        </div>
-                        <div class="port-pro">
-                            project 5
-                        </div>
-                    </div>
+            <div class="row">
+                <div class="col-md-3 p-3">
+                    <img src="./assets/portfolio/work5.jpg" alt="">
                 </div>
-                <div class="col-md-3">
-                    <div class="myportfolio">
-                        <div class="img1">
-                            <img src="./images/work6.jpg" alt="work6" class="img-fluid" />
-                        </div>
-                        <div class="port-pro">
-                            project 6
-                        </div>
-                    </div>
+                <div class="col-md-3 p-3">
+                    <img src="./assets/portfolio/work6.jpg" alt="">
                 </div>
-                <div class="col-md-3">
-                    <div class="myportfolio">
-                        <div class="img1">
-                            <img src="./images/work7.jpg" class="img-fluid" />
-                        </div>
-                        <div class="port-pro">
-                            project 7
-                        </div>
-                    </div>
+                <div class="col-md-3 p-3">
+                    <img src="./assets/portfolio/work7.jpg" alt="">
                 </div>
-                <div class="col-md-3">
-                    <div class="myportfolio">
-                        <div class="img1">
-                            <img src="./images/work8.jpg" class="img-fluid" />
-                        </div>
-                        <div class="port-pro">
-                            project 8
-                        </div>
-                    </div>
+                <div class="col-md-3 p-3">
+                    <img src="./assets/portfolio/work8.jpg" alt="">
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
     <!-- contact us section -->
-    <section class="cont-sec">
-        <div class="container-fluid cont-form">
-            <img src="./images/c_image.jpg" class="img-fluid contactme"/>
-            <div class="container find-me">
-                <h3 class="text-center myhead">contact us</h3>
-                <div class="form">
-                    <form action="#" method="POST" onsubmit="event.preventDefault()" id="form">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <input type="text" class="form-control" placeholder="Name..." required id="name" />
-                            </div>
-                            <div class="col-md-6">
-                                <input type="email" class="form-control" placeholder="Email..." required
-                                    id="email" />
-                            </div>
-                        </div>
-                        &nbsp;
-                        <textarea placeholder="Your message here..." cols="30" rows="2" id="textarea"
-                            class="form-control"></textarea>
-                        <button class="btn btn-primary submitme" onsubmit="popUp()"
-                            onsubmit="event.preventDefault()" id="cta" type="submit" data-target="#myModal">
-                            submit
-                        </button>
-                    </form>
+    <section id="contactus-section" class="d-flex flex-column justify-content-center">
+        <form action="" id="contactUsForm" class="container">
+            <div class="alert"></div>
+            <div class="row">
+                <div class="form-group col">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" class="form-control" required>
+                </div>
+                <div class="form-group col">
+                    <label for="emailAddress">Email</label>
+                    <input type="email" name="emailAddress" id="emailAddress" class="form-control" required>
                 </div>
             </div>
-        </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" rows="5" class="form-control"></textarea>
+            </div>
+            <div class="form-group text-center mt-4">
+                <button class="btn btn-primary">Send Message</button>
+            </div>
+        </form>
     </section>
     <!-- footer and social icons -->
     <div class="container-fluid footer-sec">
         <div class="container">
             <ul class="myicon text-center">
-                <a href="#"><img src="./images/twitter.png" alt="" a>
-                <a href="#"><img src="./images/behance.png" alt=""/></a>
-                <a href="#"><img src="./images/facebook.png" alt=""/></a>
-                <a href="#"><img src="./images/skype.png" alt=""/></a>
-                <a href="#"><img src="./images/dribble.png" alt=""a>
-                <a href="#"><img src="./images/g_plus.png" alt=""/></a>
-                <a href="#"><img src="./images/stumble_upon.png" alt=""/></a>
-                <a href="#"><img src="./images/pinterest.png" alt=""/></a>
-                <a href="#"><img src="./images/you_tube.png" alt=""/></a>
-                <a href="#"><img src="./images/flickr.png" alt=""/></a>
+                <a href="#"><img src="./assets/social_icons/twitter.png" alt="" a>
+                <a href="#"><img src="./assets/social_icons/behance.png" alt=""/></a>
+                <a href="#"><img src="./assets/social_icons/facebook.png" alt=""/></a>
+                <a href="#"><img src="./assets/social_icons/skype.png" alt=""/></a>
+                <a href="#"><img src="./assets/social_icons/dribble.png" alt=""a>
+                <a href="#"><img src="./assets/social_icons/g_plus.png" alt=""/></a>
+                <a href="#"><img src="./assets/social_icons/stumble_upon.png" alt=""/></a>
+                <a href="#"><img src="./assets/social_icons/pinterest.png" alt=""/></a>
+                <a href="#"><img src="./assets/social_icons/you_tube.png" alt=""/></a>
+                <a href="#"><img src="./assets/social_icons/flickr.png" alt=""/></a>
             </ul>
         </div>
         <div class="copy">
@@ -294,7 +204,7 @@
             </div>
         </div>
     </div>
-    </main>
+
     <script src="./script.js"></script>
 </body>
 

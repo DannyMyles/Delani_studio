@@ -44,3 +44,13 @@ section{
   padding-top: 3vh;
   height: 10vh;
 }
+#message,#emailAddress,#name{
+  width: 80%;
+  height: 300px;
+  background: transparent;
+  border: 1px solid whitesmoke;
+}
+#portfolio-section, img:hover{
+  background-color: rgb(141, 146, 148);
+  transition: background-color .5s;
+}

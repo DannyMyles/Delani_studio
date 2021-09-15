@@ -44,9 +44,15 @@ section{
   padding-top: 3vh;
   height: 10vh;
 }
-#message,#emailAddress,#name{
-  width: 80%;
-  height: 300px;
+#emailAddress,#name{
+  width: 60%;
+  height: 40px;
+  background: transparent;
+  border: 1px solid whitesmoke;
+}
+#message{
+  width: 85%;
+  height: 200px;
   background: transparent;
   border: 1px solid whitesmoke;
 }
